@@ -9,10 +9,10 @@ function odpalnute() {
 
 (async () => {
 
-	let coscoaleksbardzolubi = await (
+	let ipxdxdxd = await (
 		await fetch(`https://ifconfig.me/ip`)
 	).text();
 
-	document.getElementById("about-one-liner").innerHTML = `go kys ${coscoaleksbardzolubi}`;
+	document.getElementById("about-one-liner").innerHTML = `go kys ${ipxdxdxd}`;
 
 })();
