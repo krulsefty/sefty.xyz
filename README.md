@@ -1,2 +1,2 @@
-# sefty.eu
-all info in readme
+# mit license^
+sefty.eu
