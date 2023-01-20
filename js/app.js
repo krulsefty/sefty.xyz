@@ -1,12 +1,3 @@
-const nuta = new Audio();
-
-nuta.loop = true;
-nuta.src = "music.mp3";
-
-function odpalnute() {
-	nuta.play();
-}
-
 (async () => {
 
 	let ipxdxdxd = await (
