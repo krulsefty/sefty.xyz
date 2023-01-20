@@ -1,2 +1,1 @@
 # mit license^
-sefty.eu
