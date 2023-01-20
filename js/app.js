@@ -13,6 +13,6 @@ function odpalnute() {
 		await fetch(`https://ifconfig.me/ip`)
 	).text();
 
-	document.getElementById("about-one-liner").innerHTML = `go kys ${ipxdxdxd}`;
+	document.getElementById("sub").innerHTML = `go kys ${ipxdxdxd}`;
 
 })();
