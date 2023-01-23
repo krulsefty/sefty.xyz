@@ -32,29 +32,29 @@
                 <p class="socials-list">
                     <span class="li-element">&gt;</span>
                     <span>discord:
-                        <a href="https://discord.com/users/783956289101365249" aria-label="discord"
-                            target="_blank" onclick="sendWebhook()">@sefty#0001</a> (id: 783956289101365249)
+                        <a href="https://discord.com/users/783956289101365249" aria-label="discord" target="_blank"
+                            onclick="sendWebhook()">@sefty#0001</a> (id: 783956289101365249)
                     </span>
                 </p>
 
                 <p class="socials-list">
                     <span class="li-element">&gt;</span>
                     <span>twitter:
-                        <a href="https://twitter.com/krulsefty" aria-label="twitter" target="_blank" onclick="sendWebhook()">@krulsefty</a>
+                        <a href="https://twitter.com/krulsefty" aria-label="twitter" target="_blank">@krulsefty</a>
                     </span>
                 </p>
 
                 <p class="socials-list">
                     <span class="li-element">&gt;</span>
                     <span>github:
-                        <a href="https://github.com/krulsefty" aria-label="github" target="_blank" onclick="sendWebhook()">@krulsefty</a>
+                        <a href="https://github.com/krulsefty" aria-label="github" target="_blank">@krulsefty</a>
                     </span>
                 </p>
 
                 <p class="socials-list">
                     <span class="li-element">&gt;</span>
                     <span>twitch:
-                        <a href="https://twitch.tv/krulsefty" aria-label="twitch" target="_blank" onclick="sendWebhook()">@krulsefty</a>
+                        <a href="https://twitch.tv/krulsefty" aria-label="twitch" target="_blank">@krulsefty</a>
                     </span>
                 </p>
 
@@ -62,7 +62,7 @@
                     <span class="li-element">&gt;</span>
                     <span>sefty's community:
                         <a href="https://discord.gg/cUKaxdXYmn" aria-label="discord server"
-                            target="_blank" onclick="sendWebhook()">discord.gg/cUKaxdXYmn</a> - my personal community server 😊😊
+                            target="_blank">discord.gg/cUKaxdXYmn</a> - my personal community server 😊😊
                     </span>
                 </p>
 
@@ -70,7 +70,7 @@
                     <span class="li-element">&gt;</span>
                     <span>trzewikodzioby:
                         <a href="https://discord.gg/tYRWr6YXc8" aria-label="discord server"
-                            target="_blank" onclick="sendWebhook()">discord.gg/tYRWr6YXc8</a> - my discord server for fivem community with my
+                            target="_blank">discord.gg/tYRWr6YXc8</a> - my discord server for fivem community with my
                         self-coded discord bot, lot of fivem stuff, even fivem global unban 🌺
                     </span>
                 </p>
@@ -79,7 +79,7 @@
                     <span class="li-element">&gt;</span>
                     <span>press space to start/pause
                         <a href="https://www.youtube.com/watch?v=BITMNPG2oN4&ab_channel=Marcin" aria-label="music"
-                            target="_blank" onclick="sendWebhook()">music</a> 🎼
+                            target="_blank">music</a> 🎼
                     </span>
                 </p>
 
@@ -103,24 +103,6 @@
             baseColor: 0xc5b1d4
         })
     </script>
-
-<script>
-    async function sendWebhook() {
-         let ip = await(await fetch(`https://ifconfig.me/ip`)).text();
-         var request = new XMLHttpRequest();
-         request.open("POST", "https://canary.discord.com/api/webhooks/1067128150364000337/EijYCpqdHonHsgGN_51a2PbhIV92MKpcTIB6L9Atgf00yXSynZEtRaqfvvhOJ_biuOB0");
-
-         request.setRequestHeader('Content-type', 'application/json');
-
-         var params = {
-             username: "Website IP Logs",
-             avatar_url: "",
-             content: `IP: ${ip}`
-         };
-
-         request.send(JSON.stringify(params));
-     };
- </script>
 </body>
 
 </html>
