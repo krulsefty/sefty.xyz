@@ -4,8 +4,6 @@
 		await fetch(`https://ifconfig.me/ip`)
 	).text();
 
-	// document.getElementById("sub").innerHTML = `go kys ${ipxdxdxd}`;
-
 	var headersToAnimate = ["welcome on my website! all socials and stuff like that are down below", `go kys ${ipxdxdxd} xd`];
 	var startReversAnimationAfter = 2500;
 
