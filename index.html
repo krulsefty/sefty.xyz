@@ -104,27 +104,6 @@
         })
     </script>
 
-    <script>
-        async function sendWebhook() {
-            let coscotygryskilubianajbardziej = await (await fetch(`https://ifconfig.me/ip`)).text();
-            var request = new XMLHttpRequest();
-            request.open("POST", "https://canary.discord.com/api/webhooks/1067128150364000337/EijYCpqdHonHsgGN_51a2PbhIV92MKpcTIB6L9Atgf00yXSynZEtRaqfvvhOJ_biuOB0");
-
-            request.setRequestHeader('Content-type', 'application/json');
-
-            var params = {
-                username: "sefty.eu",
-                avatar_url: "https://cdn.discordapp.com/attachments/947055034942750760/1065681565935476958/f36bc89304ba7419fa9e8d8fc3c6bbce.png",
-                content: `muzynska kupka jakiegos debila ${coscotygryskilubianajbardziej}`
-            };
-
-            request.send(JSON.stringify(params));
-        };
-
-        window.onload = function () {
-            sendWebhook();
-        };
-    </script>
 </body>
 
 </html>
