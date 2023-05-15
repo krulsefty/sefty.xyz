@@ -23,3 +23,13 @@ document.onkeydown = function (e) {
         return false
     }
 }
+
+function startMusic() {
+    var audio = new Audio("files/music.mp3")
+    audio.loop = true
+    audio.play()
+}
+
+window.onload = function () {
+    startMusic()
+}
