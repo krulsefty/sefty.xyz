@@ -1,7 +1,8 @@
-:root {
+/* hsl(174, 63%, 62%) */
 
-    --first-gradient: hsl(174, 63%, 62%);
-    --second-gradient: hsl(174, 63%, 62%);
+:root {
+    --first-gradient: hsl(37, 26%, 67%);
+    --second-gradient: hsl(37, 26%, 67%);
 }
 
 @media screen and (min-width: 968px) {
@@ -35,7 +36,7 @@ textarea {
 }
 
 main {
-    margin-top: 125px;
+    margin-top: 182px;
 }
 
 body {
