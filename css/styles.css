@@ -1,8 +1,8 @@
 /* hsl(174, 63%, 62%) */
 
 :root {
-    --first-gradient: hsl(37, 26%, 67%);
-    --second-gradient: hsl(37, 26%, 67%);
+    --first-gradient: hsl(209, 100%, 50%);
+    --second-gradient: hsl(209, 100%, 50%);
 }
 
 @media screen and (min-width: 968px) {
@@ -40,7 +40,7 @@ main {
 }
 
 body {
-    background-color: #111;
+    background-color: #112032; /* #111 */
     color: var(--text-color);
     transition: 0.4s;
     overflow: hidden;

