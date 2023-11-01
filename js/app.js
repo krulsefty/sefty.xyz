@@ -4,7 +4,7 @@ particlesJS("particles-js", {
             value: 80,
             density: {
                 enable: !0,
-                value_area: 800
+                value_area: 225
             }
         },
         color: {
@@ -36,7 +36,7 @@ particlesJS("particles-js", {
             }
         },
         size: {
-            value: 5,
+            value: 2,
             random: !0,
             anim: {
                 enable: !1,
@@ -54,8 +54,8 @@ particlesJS("particles-js", {
         },
         move: {
             enable: !0,
-            speed: 6,
-            direction: "none",
+            speed: 2,
+            direction: "top",
             random: !1,
             straight: !1,
             out_mode: "out",
@@ -70,14 +70,14 @@ particlesJS("particles-js", {
         detect_on: "canvas",
         events: {
             onhover: {
-                enable: !0,
+                enable: !1,
                 mode: "repulse"
             },
             onclick: {
-                enable: !0,
+                enable: !1,
                 mode: "push"
             },
-            resize: !0
+            resize: !1
         },
         modes: {
             grab: {

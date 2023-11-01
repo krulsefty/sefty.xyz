@@ -1,13 +1,13 @@
 /* hsl(174, 63%, 62%) */
 
 :root {
-    --first-gradient: hsl(209, 100%, 50%);
-    --second-gradient: hsl(209, 100%, 50%);
+    --first-gradient: white;
+    --second-gradient: white;
 }
 
 @media screen and (min-width: 968px) {
     :root {
-        --biggest-font-size: 2.5rem;
+        --biggest-font-size: 2.05rem;
         --h1-font-size: 2.25rem;
         --h2-font-size: 1.5rem;
         --h3-font-size: 1.25rem;
@@ -36,11 +36,11 @@ textarea {
 }
 
 main {
-    margin-top: 182px;
+    margin-top: -30px;
 }
 
 body {
-    background-color: #112032; /* #111 */
+    background-color: black; /* #111 */
     color: var(--text-color);
     transition: 0.4s;
     overflow: hidden;
@@ -92,6 +92,15 @@ body {
 
 .home__name {
     font-size: var(--biggest-font-size);
+    opacity: 70%;
+    margin-top: 15px;
+}
+
+.pfp {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px white, 0 0 5px white;
 }
 
 .section {
@@ -100,4 +109,18 @@ body {
 
 ::selection {
     color: hsl(174, 63%, 62%);
+}
+
+#domain {
+    font-size: 105%;
+}
+
+a {
+    background-image: linear-gradient(60deg, var(--first-gradient), var(--second-gradient));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    margin-top: 25px;
+    font-size: 125%;
 }
