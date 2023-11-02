@@ -4,14 +4,14 @@ particlesJS("particles-js", {
             value: 80,
             density: {
                 enable: !0,
-                value_area: 225
+                value_area: 210
             }
         },
         color: {
             value: "#ffffff"
         },
         shape: {
-            type: "circle",
+            type: "star",
             stroke: {
                 width: 0,
                 color: "#000000"
@@ -54,10 +54,10 @@ particlesJS("particles-js", {
         },
         move: {
             enable: !0,
-            speed: 2,
+            speed: 1.5,
             direction: "top",
-            random: !1,
-            straight: !1,
+            random: 1,
+            straight: 1,
             out_mode: "out",
             attract: {
                 enable: !1,
