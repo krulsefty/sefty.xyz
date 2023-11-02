@@ -63,7 +63,7 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.home__div {
+.general {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -74,23 +74,23 @@ body {
 }
 
 
-.home__data {
+.data {
     padding-bottom: 100%;
     text-align: center;
 }
 
 .home__greeting,
-.home__education {
+.socials {
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
 }
 
-.home__education {
+.socials {
     color: var(--text-color);
     margin-bottom: 2.5rem;
 }
 
-.home__name {
+.username {
     font-size: var(--biggest-font-size);
     opacity: 70%;
     margin-top: 15px;
