@@ -1,126 +1,141 @@
 /* hsl(174, 63%, 62%) */
 
 :root {
-    --first-gradient: white;
-    --second-gradient: white;
+  --first-gradient: white;
+  --second-gradient: white;
 }
 
 @media screen and (min-width: 968px) {
-    :root {
-        --biggest-font-size: 2.05rem;
-        --h1-font-size: 2.25rem;
-        --h2-font-size: 1.5rem;
-        --h3-font-size: 1.25rem;
-        --normal-font-size: 1rem;
-        --small-font-size: 0.875rem;
-        --smaller-font-size: 0.813rem;
-    }
+  :root {
+    --biggest-font-size: 2.05rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+  }
 }
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body,
 button,
 input,
 textarea {
-    font-family: "GT Pressura Mono", monospace;
-    font-size: var(--normal-font-size);
+  font-family: "GT Pressura Mono", monospace;
+  font-size: var(--normal-font-size);
+}
+
+.nickname {
+  font-family: "GT Pressura Mono", monospace;
+  font-size: 105%;
+  font-weight: bolder;
+  margin-left: 5px;
+  position: static;
 }
 
 main {
-    margin-top: -30px;
+  margin-top: -30px;
 }
 
 body {
-    background-color: black; /* #111 */
-    color: var(--text-color);
-    transition: 0.4s;
-    overflow: hidden;
+  background-color: black; /* #111 */
+  color: var(--text-color);
+  transition: 0.4s;
+  overflow: hidden;
 }
 
 .overlay {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-    transition: 0.4s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  transition: 0.4s;
 }
 
 .home span {
-    background-image: linear-gradient(60deg, var(--first-gradient), var(--second-gradient));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    60deg,
+    var(--first-gradient),
+    var(--second-gradient)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .general {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #fff;
-    padding: 0 20px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
 }
 
-
 .data {
-    padding-bottom: 100%;
-    text-align: center;
+  padding-bottom: 100%;
+  text-align: center;
 }
 
 .home__greeting,
 .socials {
-    font-size: var(--small-font-size);
-    font-weight: var(--font-medium);
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
 }
 
 .socials {
-    color: var(--text-color);
-    margin-bottom: 2.5rem;
+  color: var(--text-color);
+  margin-bottom: 2.5rem;
 }
 
 .username {
-    font-size: var(--biggest-font-size);
-    opacity: 70%;
-    margin-top: 15px;
+  font-size: var(--biggest-font-size);
+  opacity: 70%;
+  margin-top: 15px;
 }
 
 .pfp {
-    height: 160px;
-    width: 160px;
-    border-radius: 50%;
-    /* box-shadow: 0 0 10px white, 0 0 5px white; */
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  /* box-shadow: 0 0 10px white, 0 0 5px white; */
 }
 
 .section {
-    padding: 6.5rem 0 1rem;
+  padding: 6.5rem 0 1rem;
 }
 
 ::selection {
-    color: hsl(174, 63%, 62%);
+  color: hsl(174, 63%, 62%);
 }
 
 #domain {
-    font-size: 105%;
+  font-size: 105%;
 }
 
 a {
-    background-image: linear-gradient(60deg, var(--first-gradient), var(--second-gradient));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bolder;
-    margin-top: 25px;
-    font-size: 125%;
+  background-image: linear-gradient(
+    60deg,
+    var(--first-gradient),
+    var(--second-gradient)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  margin-top: 25px;
+  font-size: 125%;
 }
