@@ -1,0 +1,55 @@
+body {
+  font-family: "JetBrains Mono";
+  color: #fff;
+  background: rgb(69,17,99);
+  background: linear-gradient(135deg, rgba(69,17,99,1) 0%, rgba(51,45,73,1) 45%, rgba(122,43,59,1) 100%);
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+::selection {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.general {
+  font-size: 115%;
+}
+
+h1 {
+  font-size: 250%;
+  position: absolute;
+  bottom: 500px;
+  left: 787px;
+}
+
+h2 {
+  position: absolute;
+  bottom: 473px;
+  left: 787px;
+}
+
+.aka {
+  opacity: 50%;
+  font-style: italic;
+}
+
+.wave {
+  font-size: 550%;
+  position: absolute;
+  bottom: 462px;
+  left: 640px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bolder;
+  margin-top: 25px;
+  font-size: 125%;
+}
+
+.socials {
+  position: absolute;
+  bottom: 445px;
+  left: 787px;
+}
