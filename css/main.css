@@ -18,14 +18,14 @@ body {
 h1 {
   font-size: 250%;
   position: absolute;
-  bottom: 500px;
-  left: 787px;
+  bottom: 495px;
+  left: 785px;
 }
 
 h2 {
   position: absolute;
-  bottom: 473px;
-  left: 787px;
+  bottom: 468px;
+  left: 785px;
 }
 
 .aka {
@@ -34,22 +34,21 @@ h2 {
 }
 
 .wave {
-  font-size: 550%;
+  font-size: 555%;
   position: absolute;
-  bottom: 462px;
-  left: 640px;
+  bottom: 452px;
+  left: 635px;
 }
 
 a {
   color: #fff;
   text-decoration: none;
   font-weight: bolder;
-  margin-top: 25px;
   font-size: 125%;
 }
 
 .socials {
   position: absolute;
-  bottom: 445px;
-  left: 787px;
+  bottom: 435px;
+  left: 785px;
 }
