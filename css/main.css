@@ -1,10 +1,14 @@
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "JetBrains Mono";
   color: #fff;
   background: rgb(69,17,99);
   background: linear-gradient(135deg, rgba(69,17,99,1) 0%, rgba(51,45,73,1) 45%, rgba(122,43,59,1) 100%);
-  min-height: 100vh;
-  overflow: hidden;
+  min-height: 205vh;
+  overflow: visible;
 }
 
 ::selection {
@@ -40,10 +44,9 @@ h2 {
   left: 635px;
 }
 
-a {
+#icon {
   color: #fff;
   text-decoration: none;
-  font-weight: bolder;
   font-size: 125%;
 }
 
@@ -51,4 +54,26 @@ a {
   position: absolute;
   bottom: 435px;
   left: 785px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.li-element {
+  opacity: 50%;
+}
+
+section {
+  position: absolute;
+  /* top: 1360px; */
+  top: 1390px;
+  /* left: 600px; */
+  left: 570px;
+  font-size: 150%;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
 }
