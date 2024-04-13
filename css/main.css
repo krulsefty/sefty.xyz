@@ -67,10 +67,8 @@ a {
 
 section {
   position: absolute;
-  /* top: 1360px; */
-  top: 1390px;
-  /* left: 600px; */
-  left: 570px;
+  top: 1360px;
+  left: 600px;
   font-size: 150%;
 }
 
