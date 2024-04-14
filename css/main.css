@@ -22,14 +22,18 @@ body {
 h1 {
   font-size: 250%;
   position: absolute;
-  bottom: 495px;
-  left: 785px;
+  /* bottom: 495px; */
+  top: 35.2%;
+  /* left: 785px; */
+  left: 40.88%;
 }
 
 h2 {
   position: absolute;
-  bottom: 468px;
-  left: 785px;
+  /* bottom: 468px; */
+  top: 42.3%;
+  /* left: 785px; */
+  left: 40.88%;
 }
 
 .aka {
@@ -40,8 +44,10 @@ h2 {
 .wave {
   font-size: 555%;
   position: absolute;
-  bottom: 452px;
-  left: 630px;
+  /* bottom: 452px; */
+  top: 37.8%;
+  /* left: 630px; */
+  left: 32.8%;
 }
 
 #icon {
@@ -52,8 +58,10 @@ h2 {
 
 .socials {
   position: absolute;
-  bottom: 435px;
-  left: 785px;
+  /* bottom: 435px; */
+  top: 47.7%;
+  /* left: 785px; */
+  left: 40.88%;
 }
 
 a {
@@ -67,8 +75,10 @@ a {
 
 section {
   position: absolute;
-  top: 1320px;
-  left: 550px;
+  /* top: 1320px; */
+  top: 138.5%;
+  /* left: 550px; */
+  left: 28.65%;
   font-size: 150%;
 }
 
@@ -128,4 +138,22 @@ section {
     opacity: 0;
     transform: rotate(45deg) translate(20px, 20px);
   }
+}
+
+@media only screen and (max-width: 1500px) {
+    .wave {
+      left: 30%;
+    }
+    section {
+      left: 15%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .wave {
+      left: 25%;
+    }
+    section {
+      left: 5%;
+    }
 }
