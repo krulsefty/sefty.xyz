@@ -202,17 +202,17 @@ async function sefty() {
 
   if (activity && !spotifyActivity) {
     displayOther()
-    document.getElementById("grid").style.flexDirection = "row"
+    document.getElementById("grid").style.flexDirection = "column"
   }
 
   if (activity && spotifyActivity) {
     displayOther()
-    document.getElementById("grid").style.flexDirection = "row"
+    document.getElementById("grid").style.flexDirection = "column"
   }
 
   if (spotifyActivity && !activity) {
     displaySpotify()
-    document.getElementById("grid").style.flexDirection = "row"
+    document.getElementById("grid").style.flexDirection = "column"
   }
 
   if (!spotifyActivity && !activity) {
