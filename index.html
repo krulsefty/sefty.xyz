@@ -1,74 +1,67 @@
+<!-- s -->
+<!-- e -->
+<!-- f -->
+<!-- t -->
+<!-- y -->
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <title>☆</title>
+  <title>sefty.xyz</title>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/x-icon" href="https://gamesense.pub/favicon.ico" />
+  <meta property="og:title" content="sefty" />
+  <meta property="og:url" content="https://sefty.xyz" />
+  <meta property="og:image" content="https:/sefty.xyz/files/icon.svg" />
+  <meta property="og:description"
+    content="sefty's personal site." />
+  <meta name="theme-color" content="#000000" />
+  <link rel="icon" type="image/x-icon" href="files/icon.svg" />
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="/css/font-awesome.min.css" />
   <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-  <script defer src="app.js"></script>
+  <script defer src="js/app.js"></script>
+  <script defer src="js/tilt.js"></script>
 </head>
 
 <body>
-  <div class="general">
-    <span class="wave">👋</span>
-    <h1>Wassup, everyone!</h1>
-    <h2>Oskar here <span class="aka">(known as sefty)</span></h2>
+  <div class="header-container">
+    <header>
+      <img id="logo" src="">
+      <a class="header" href="https://discord.gg/spcars" target="_blank" id="dcheader">Discord</a>
+      <a class="header" href="https://github.com/krulsefty/sefty.xyz" id="sourceheader">Source</a>
+    </header>
   </div>
-  <h3 class="socials">
-    <a class="fa-solid fa-user" id="icon" href="https://e-z.bio/sefty" target="_blank"></a>
-    <a class="fa-brands fa-discord" id="icon" href="https://discord.com/users/783956289101365249" target="_blank"></a>
-    <a class="fa-brands fa-github" id="icon" href="https://github.com/krulsefty" target="_blank"></a>
-    <a class="fa-brands fa-steam" id="icon" href="https://steamcommunity.com/id/krulsefty" target="_blank"></a>
-    <a class="fa-brands fa-twitch" id="icon" href="https://twitch.tv/krulsefty" target="_blank"></a>
-    <a class="fa-brands fa-youtube" id="icon" href="https://www.youtube.com/channel/UCToGyX9SjnWL8VmD8YmGzow" target="_blank"></a>
-    </a>
-    <a
-        class="fa-solid fa-folder-open"
-        id="icon"
-        href="#section">
-      </a>
-  </h3>
 
-  <section id="section">
-    <p class="socials-list">
-      <span>🚘
-      <span class="li-element">&gt;</span>
-      <span class="li-element">[ </span><a href="https://discord.gg/spcars" aria-label="title" target="_blank">SP Cars</a> <span class="li-element"> ]</span> <span class="li-element">-</span> FiveM car DEVs discord server
-      </span>
-    </p>
+  <div class="title-container">
+    <h1><span id="wave">👋 </span>hey, i'm <span class="colored-text">sefty</span></h1>
+    <h2><a id="location-logo" class="fa-solid fa-location-dot" id="icon"></a> Poland</h2>
+    <h3><span class="colored-text">Passionate</span>, self-learning <span class="colored-text">WEB</span> Developer.<br>Owner of <span class="colored-text"><a href="https://sp-cars.pl">SP Cars</a></span> & <span class="colored-text"><a href="https://discord.gg/pingwinyshop">Pingwiny SHOP</a></span>.</h3>
 
-    <p class="socials-list">
-      <span>🛒
-      <span class="li-element">&gt;</span>
-      <span class="li-element">[ </span><a href="https://discord.gg/pingwinyshop" aria-label="title" target="_blank">pingwiny shop</a> <span class="li-element"> ]</span> <span class="li-element">-</span> FiveM cheats shop
-      </span>
-    </p>
+    <div id="desc" class="desc">
+      <h3>I'm <span id="status-text"></span>. It's currently <span id="time" class="colored-text"></span> for me.</h3>
+      </div>
 
-    <p class="socials-list">
-      <span>🧨
-      <span class="li-element">&gt;</span>
-      <span class="li-element">[ </span><a href="https://blud-got-ddosed.lol" aria-label="title" target="_blank">blud-got-ddosed.lol</a> <span class="li-element"> ]</span> <span class="li-element">-</span> Mainly FiveM ip-finder website
-      </span>
-    </p>
-
-    <!-- <p class="socials-list">
-      <span>🐼
-      <span class="li-element">&gt;</span>
-      <span class="li-element">[ </span><a href="https://fentanyl.recipes" aria-label="title" target="_blank">fentanyl.recipes</a> <span class="li-element"> ]</span> <span class="li-element">-</span> PandaBuy leak searcher (soon lol)
-      </span>
-    </p> -->
-
-  </section>
-
-  <div class="box">
-    <span></span>
-    <span></span>
-    <span></span>
+  <div id="grid" class="grid hidden">
+    <div data-tilt class="member">
+      <img id="sefty">
+      <span class="status" id="status"></span>
+      <div class="display-name" id="displayname">sefty</div>
+      <div class="username" id="username">@sefty</div>
+      <div class="socials">
+        <button onclick="openDiscord('https://discord.com/users/783956289101365249')" class="add-on-discord">Add on
+          Discord <a id="arrow" class="fa-solid fa-arrow-right" id="icon"></a></button>
+      </div>
+    </div>
+    <div data-tilt id="activity" class="activity">
+      <img id="cover">
+      <div class="title" id="title"></div>
+      <div class="details" id="details"></div>
+      <div class="state" id="state"></div>
+    </div>
   </div>
+</div>
 </body>
 
 </html>
