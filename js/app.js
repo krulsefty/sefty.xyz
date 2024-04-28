@@ -202,22 +202,22 @@ async function sefty() {
 
   if (activity && !spotifyActivity) {
     displayOther()
-    document.getElementById("grid").style.flexDirection = "column"
+    // document.getElementById("grid").style.flexDirection = "column"
   }
 
   if (activity && spotifyActivity) {
     displayOther()
-    document.getElementById("grid").style.flexDirection = "column"
+    // document.getElementById("grid").style.flexDirection = "column"
   }
 
   if (spotifyActivity && !activity) {
     displaySpotify()
-    document.getElementById("grid").style.flexDirection = "column"
+    // document.getElementById("grid").style.flexDirection = "column"
   }
 
   if (!spotifyActivity && !activity) {
     document.getElementById("activity").style.opacity = "0"
-    document.getElementById("grid").style.flexDirection = "column"
+    // document.getElementById("grid").style.flexDirection = "column"
   }
 }
 
