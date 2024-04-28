@@ -223,12 +223,13 @@ header {
   font-size: 25px;
   background: -webkit-linear-gradient(rgb(21, 19, 27), rgb(20, 18, 26));
   background-clip: border-box;
+  height: 106px;
 }
 
 .activity img {
   position: relative;
   border-radius: 30px;
-  width: 100px;
+  width: 106px;
 }
 
 .title {
