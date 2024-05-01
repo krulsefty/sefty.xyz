@@ -59,6 +59,12 @@ async function sefty() {
   const truncatedName = name.length > 10 ? `${name.substring(0, 10)}...` : name;
   document.getElementById("displayname").innerHTML = `${truncatedName}`
 
+  const h1Name = data.data.discord_user.username
+  document.getElementById("h1-nickname").innerHTML = `${h1Name}`
+
+  const username = data.data.discord_user.username
+  document.getElementById("username").innerHTML = `@${username}`
+
   const status = data.data.discord_status;
 
   if (status === "online") {
