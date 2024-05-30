@@ -110,7 +110,7 @@ async function sefty() {
   var activities = data.data.activities
 
   var activity = activities.find(function (activity) {
-    return activity.name !== "Spotify"
+    return activity.name !== "Spotify" && activity.id !== "custom"
   })
 
   function displayOther() {
@@ -185,7 +185,7 @@ async function sefty() {
           cover = assetImg
         }
       } else if (!assetImg || !activity.assets && !activity.assets.large_image && !activity.assets.small_image) {
-        cover = "https://cdn.discordapp.com/attachments/1133297723634880562/1231540597484158986/Untitled-1.png?ex=6637548f&is=6624df8f&hm=d92d9c4e648016fda6b264a16795e9f34baaf2dc465df56baa5783234dd73688&";
+        cover = "https://cdn.discordapp.com/attachments/1133297723634880562/1231540597484158986/Untitled-1.png?ex=66599b8f&is=66584a0f&hm=96f69ae9bef936c2b07cb242ebb8514313e86949ee99216f92496f7617179952&";
       }
 
       let truncatedDetails = details.length > 43 ? `${details.substring(0, 43)}...` : details
