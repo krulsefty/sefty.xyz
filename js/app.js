@@ -110,7 +110,7 @@ async function sefty() {
   var activities = data.data.activities
 
   var activity = activities.find(function (activity) {
-    return activity.name !== "Spotify" && activity.id !== "custom"
+    return activity.name !== "Spotify" && activity.id !== "custom" && activity.id !== "60bd3079689e559a"
   })
 
   function displayOther() {
